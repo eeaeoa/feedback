@@ -3,10 +3,10 @@ import { QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 import { Toaster } from 'react-hot-toast'
 
-import AppLayout from 'components/AppLayout'
+import AppLayout from 'ui/AppLayout'
 import Login from 'pages/Login'
 import Surveys from 'pages/Surveys'
-import ProtectedRoute from 'components/ProtectedRoute'
+import ProtectedRoute from 'ui/ProtectedRoute'
 
 const queryClient = new QueryClient()
 

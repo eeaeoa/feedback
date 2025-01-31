@@ -1,5 +1,5 @@
-import NavBar from 'components/NavBar'
-import SurveysCardTable from 'components/SurveysCardTable'
+import NavBar from 'ui/NavBar'
+import SurveysCardTable from 'features/surveys/SurveysCardTable'
 
 function Surveys() {
   return (
