@@ -2,7 +2,56 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    colors: {},
+    colors: {
+      blue: {
+        50: '#EAF3FF',
+        100: '#DBF0FF',
+        200: '#B9E4FF',
+        300: '#88D6FF',
+        400: '#50BDFF',
+        500: '#289DFF',
+        600: '#1782FF',
+        700: '#0A66EB',
+        800: '#0F52BE',
+        900: '#134895',
+      },
+      green: {
+        50: '#EBFAF4',
+        500: '#4AC99B',
+      },
+      red: {
+        50: '#FFEFEF',
+        100: '#FFDCDC',
+        200: '#FFBFBF',
+        300: '#FF9292',
+        400: '#FF5454',
+        500: '#FF1F1F',
+        600: '#FF0000',
+        700: '#DB0000',
+        800: '#AB0000',
+        900: '#940808',
+      },
+      grey: {
+        50: '#FFFFFF',
+        100: '#F5F5F5',
+        150: '#EBEBEB',
+        200: '#E0E0E0',
+        250: '#D6D6D6',
+        300: '#C2C2C2',
+        400: '#ADADAD',
+        500: '#999999',
+        600: '#7B7B7B',
+        700: '#5E5E5E',
+        800: '#404040',
+        850: '#313131',
+        900: '#232323',
+        950: '#141414',
+      },
+      background: {
+        1: '#F9F9F9',
+        2: '#C6E0FF',
+      },
+    },
     fontSize: {
       xs: ['0.75rem', { lineHeight: '0.875rem', letterSpacing: '' }], // 12/14px
       sm: ['0.875rem', { lineHeight: '1.125rem', letterSpacing: '' }], // 14/18px
